@@ -5,3 +5,4 @@ models/
 data/raw/*.zip
 data/raw/*.xlsx
 课件要求摘录.md
+outputs/*_partial.csv
