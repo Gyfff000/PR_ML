@@ -1,0 +1,9 @@
+{
+  "model": "svm",
+  "selected_by": "training_cv_macro_f1",
+  "cv_macro_f1": 0.9437643064202934,
+  "parameters": {
+    "svc__C": 10,
+    "svc__gamma": "scale"
+  }
+}
