@@ -1,0 +1,37 @@
+{
+  "raw_rows": 13611,
+  "duplicate_rows_removed": 68,
+  "clean_rows": 13543,
+  "features": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "classes": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "missing_values": 0,
+  "train_rows": 10834,
+  "test_rows": 2709,
+  "python": "3.12.14",
+  "sklearn": "1.9.1"
+}
