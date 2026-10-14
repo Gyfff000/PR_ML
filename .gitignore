@@ -1,0 +1,7 @@
+**/.venv/
+**/.venv-migration-backup/
+**/.vs/
+**/__pycache__/
+**/.cache/
+har_project/data/
+.migration-manifest.json

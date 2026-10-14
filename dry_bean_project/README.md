@@ -13,7 +13,7 @@
 不需要激活虚拟环境，直接使用项目里的 Python。先进入目录：
 
 ```powershell
-cd 'D:\1111\PR&ML\dry_bean_project'
+cd 'D:\1111\PR_ML\dry_bean_project'
 ```
 
 1. 查看与检查数据：
