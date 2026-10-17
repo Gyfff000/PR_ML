@@ -4,10 +4,10 @@
 
 ---
 
-# 模式识别大作业：干豆品种分类
+## 监督学习基线练习（历史实验）
 
 用 UCI Dry Bean 数据集完成七分类监督学习，比较逻辑回归、随机森林和 RBF 支持向量机。
 
-实验代码、数据、报告提纲和 AI 披露记录在 [dry_bean_project](dry_bean_project/README.md)。
+实验代码、数据、报告提纲和 AI 披露记录在 [supervised_learning_baseline（监督学习基线练习）](supervised_learning_baseline/README.md)。
 
 当前已完成数据检查、固定划分、基线比较与预设网格调参。按训练集五折交叉验证选择最终 SVM（C=10、gamma=scale），CV 宏平均 F1 为 0.943764，选择已冻结。独立测试集尚未评价。下一步按项目说明运行 evaluate，再根据真实结果完成论文。

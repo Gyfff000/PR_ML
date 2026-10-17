@@ -1,4 +1,6 @@
-# 基于形态特征的干豆品种分类及模型比较
+# 监督学习基线实验：干豆品种分类及模型比较
+
+本目录保存当前 UCI HAR 研究之前的监督学习基线练习，用于学习分类、规范验证和调参。当前人体活动识别大作业见 [HAR 项目](../har_project/README.md)。
 
 ## 作业目标与进度
 
@@ -13,7 +15,7 @@
 不需要激活虚拟环境，直接使用项目里的 Python。先进入目录：
 
 ```powershell
-cd 'D:\1111\PR_ML\dry_bean_project'
+cd 'D:\1111\PR_ML\supervised_learning_baseline'
 ```
 
 1. 查看与检查数据：
@@ -69,7 +71,7 @@ cd 'D:\1111\PR_ML\dry_bean_project'
 
 ## 复现与来源
 
-已安装依赖记录在 `requirements-lock.txt`。当前虚拟环境使用 Python 3.12。环境移动到其他电脑后需要重新创建，可用 Python 3.12 创建 `.venv` 再安装锁定依赖。Git 不提交环境、原始工作簿及压缩包。克隆仓库后先进入 dry_bean_project，再执行：
+已安装依赖记录在 `requirements-lock.txt`。当前虚拟环境使用 Python 3.12。环境移动到其他电脑后需要重新创建，可用 Python 3.12 创建 `.venv` 再安装锁定依赖。Git 不提交环境、原始工作簿及压缩包。克隆仓库后先进入 supervised_learning_baseline，再执行：
 
 ```powershell
 py -3.12 -m venv .venv
