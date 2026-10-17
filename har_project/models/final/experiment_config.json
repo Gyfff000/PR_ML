@@ -1,0 +1,62 @@
+{
+  "primary_model": "logistic",
+  "comparison_model": "fusion",
+  "seed": 42,
+  "training_samples": 7352,
+  "training_subjects": 21,
+  "label_encoding": "official label minus 1",
+  "class_names": [
+    "步行",
+    "上楼",
+    "下楼",
+    "坐",
+    "站立",
+    "躺卧"
+  ],
+  "logistic": {
+    "C": 0.1,
+    "max_iter": 3000,
+    "pca": false
+  },
+  "fusion": {
+    "epochs": 9,
+    "epoch_rule": "median of 15 inner-selected epoch counts",
+    "source_epoch_counts": [
+      11,
+      9,
+      16,
+      3,
+      1,
+      9,
+      11,
+      29,
+      10,
+      6,
+      6,
+      11,
+      17,
+      3,
+      1
+    ],
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "channel_names": [
+      "body_acc_x",
+      "body_acc_y",
+      "body_acc_z",
+      "body_gyro_x",
+      "body_gyro_y",
+      "body_gyro_z",
+      "total_acc_x",
+      "total_acc_y",
+      "total_acc_z"
+    ]
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1",
+    "torch": "2.14.1+cpu"
+  },
+  "fusion_source_sha256": "9a6960054fdb8e909287f95b853fbed582684634178d785413701f9967725689"
+}
