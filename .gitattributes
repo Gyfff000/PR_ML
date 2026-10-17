@@ -4,3 +4,8 @@ har_project/fusion_model.py -text
 *.joblib binary
 *.npz binary
 har_project/models/final/* -text
+
+# Keep vendored open-source template and package distributions byte-for-byte.
+har_project/paper/elegantpaper.cls -text
+har_project/paper/License.ElegantPaper -text
+har_project/paper/vendor/** -text

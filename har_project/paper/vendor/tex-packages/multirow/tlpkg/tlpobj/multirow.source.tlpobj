@@ -1,0 +1,8 @@
+name multirow.source
+category Package
+revision 77682
+shortdesc source files of multirow
+relocated 1
+srcfiles size=24
+ RELOC/source/latex/multirow/multirow.dtx
+ RELOC/source/latex/multirow/multirow.ins

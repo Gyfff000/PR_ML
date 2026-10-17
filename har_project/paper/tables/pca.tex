@@ -1,0 +1,11 @@
+\begin{table}[htbp]\centering\small
+\caption{固定逻辑回归 $C=0.1$ 的 PCA 对照}\label{tab:pca}
+\begin{tabular}{lrrrr}\toprule
+设置 & 各折维数范围 & 验证 F1 & 折间标准差 & 耗时/s\\\midrule
+不使用 PCA & 561 & 0.9339 & 0.0427 & 218.9\\
+PCA 90\% & 62 & 0.9036 & 0.0537 & 83.9\\
+PCA 95\% & 100--101 & 0.9205 & 0.0455 & 56.4\\
+PCA 99\% & 177--178 & 0.9280 & 0.0443 & 262.6\\
+\bottomrule\end{tabular}
+\tabnote{保留比例指累计解释方差；各设置未重新搜索分类器参数，耗时为本机单次五折运行记录。}
+\end{table}

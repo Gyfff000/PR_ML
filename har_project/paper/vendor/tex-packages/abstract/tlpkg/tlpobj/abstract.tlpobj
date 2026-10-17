@@ -1,0 +1,15 @@
+name abstract
+category Package
+revision 79618
+shortdesc Control the typesetting of the abstract environment
+relocated 1
+longdesc The abstract package gives you control over the typesetting of
+longdesc the abstract environment, and in particular provides for a one
+longdesc column abstract in a two column paper.
+runfiles size=2
+ RELOC/tex/latex/abstract/abstract.sty
+catalogue-contact-repository https://github.com/LaTeX-Package-Repositories/herries-press
+catalogue-ctan /macros/latex/contrib/abstract
+catalogue-license lppl1.3c
+catalogue-topics abstract tagged-pdf-partially
+catalogue-version 1.2a

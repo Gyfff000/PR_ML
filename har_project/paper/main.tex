@@ -1,0 +1,50 @@
+% !TeX program = xelatex
+% !BIB program = biber
+\makeatletter
+\def\input@path{{vendor/tex-packages/footmisc/tex/latex/footmisc/}{vendor/tex-packages/appendix/tex/latex/appendix/}{vendor/tex-packages/multirow/tex/latex/multirow/}{vendor/tex-packages/placeins/tex/latex/placeins/}{vendor/tex-packages/abstract/tex/latex/abstract/}}
+\makeatother
+\documentclass[lang=cn,11pt,a4paper,math=cm,bibstyle=gb7714-2015,citestyle=gb7714-2015]{elegantpaper}
+\usepackage{tabularx,array,flafter}
+\usepackage[section]{placeins}
+\ExecuteBibliographyOptions{sorting=none,doi=true,url=false,isbn=false,maxbibnames=3,minbibnames=3}
+\addbibresource{references.bib}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black,
+ pdftitle={基于人工特征与时序特征融合的跨受试者人体活动识别研究}}
+\graphicspath{{figures/}}
+\setlength{\emergencystretch}{2em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\raggedbottom
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.7}
+\setlength{\textfloatsep}{14pt plus 3pt minus 3pt}
+\setlength{\floatsep}{12pt plus 2pt minus 2pt}
+\captionsetup{font=small}
+\newcommand{\tabnote}[1]{\par\vspace{3pt}{\footnotesize #1\par}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\title{基于人工特征与时序特征融合的\\跨受试者人体活动识别研究}
+\input{author_info}
+\begin{document}
+\maketitle
+\begin{center}\small\bfseries Cross-Subject Human Activity Recognition via Fusion of Handcrafted and Temporal Features\end{center}
+\begin{abstract}
+针对智能手机人体活动识别中不同受试者之间的分布差异，本文基于 UCI HAR 数据集开展监督分类研究。将数据集提供的 561 维人工特征与九通道惯性时间序列对齐，构建多层感知机与一维卷积神经网络的双分支拼接融合模型，并设置逻辑回归、支持向量机、随机森林及单分支神经网络作为对照。采用按受试者划分的五折交叉验证，神经网络通过内层受试者验证选择训练轮数；模型与配置冻结后，在官方独立测试集上评价。逻辑回归取得最高的交叉验证宏平均 F1（0.9339），融合模型为 0.9318。独立测试中，逻辑回归与融合模型的宏平均 F1 分别为 0.9500 和 0.9564，融合模型净减少 17 个错误，但坐与站立类别的 F1 下降。结果表明，两种表示的融合在本次测试中改善了总体识别性能，仍存在类别间收益不均与跨受试者波动。本文的贡献在于统一分组协议下的实证比较、稳定性复验及误差分析，不将常见拼接结构视为新架构。
+\keywords{人体活动识别；监督学习；跨受试者验证；特征融合；一维卷积神经网络}
+\end{abstract}
+\noindent\textbf{Abstract:} This study evaluates supervised human activity recognition on UCI HAR under subject-disjoint splits. A two-branch network combines a multilayer perceptron for 561 handcrafted features with a one-dimensional convolutional encoder for nine-channel inertial sequences. Logistic regression, support vector machines, random forests, and single-branch networks serve as comparison models. Five-fold subject-grouped cross-validation is used for development, with inner subject validation selecting neural training epochs. After configurations are frozen, logistic regression and the fusion model achieve test macro-F1 scores of 0.9500 and 0.9564, respectively. Fusion produces 17 fewer errors overall, while reducing F1 for sitting and standing. Logistic regression retains the highest cross-validation mean. These findings support a limited, dataset-specific benefit of representation fusion rather than universal superiority.\par
+\vspace{4pt}\noindent\textbf{Key words:} human activity recognition; supervised learning; cross-subject validation; feature fusion; one-dimensional convolution\par
+\clearpage
+\input{sections/01_introduction}
+\input{sections/02_data}
+\input{sections/03_methods}
+\input{sections/04_protocol}
+\input{sections/05_results}
+\input{sections/06_conclusion}
+\FloatBarrier
+\printbibliography[heading=bibintoc,title={参考文献}]
+\appendix
+\input{sections/appendix_ai}
+\end{document}

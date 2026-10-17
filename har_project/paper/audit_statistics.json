@@ -1,0 +1,62 @@
+{
+  "paired": {
+    "both_correct": 2754,
+    "logistic_only_correct": 45,
+    "fusion_only_correct": 62,
+    "both_wrong": 86
+  },
+  "by_subject": {
+    "2": {
+      "n": 302,
+      "logistic_correct": 297,
+      "fusion_correct": 287
+    },
+    "4": {
+      "n": 317,
+      "logistic_correct": 303,
+      "fusion_correct": 306
+    },
+    "9": {
+      "n": 288,
+      "logistic_correct": 258,
+      "fusion_correct": 270
+    },
+    "10": {
+      "n": 294,
+      "logistic_correct": 243,
+      "fusion_correct": 228
+    },
+    "12": {
+      "n": 320,
+      "logistic_correct": 305,
+      "fusion_correct": 311
+    },
+    "13": {
+      "n": 327,
+      "logistic_correct": 323,
+      "fusion_correct": 325
+    },
+    "18": {
+      "n": 364,
+      "logistic_correct": 353,
+      "fusion_correct": 360
+    },
+    "20": {
+      "n": 354,
+      "logistic_correct": 337,
+      "fusion_correct": 349
+    },
+    "24": {
+      "n": 381,
+      "logistic_correct": 380,
+      "fusion_correct": 380
+    }
+  },
+  "fusion_seed_means": [
+    0.9318123308698192,
+    0.9330002531421089,
+    0.9295271884324128
+  ],
+  "fusion_seed_mean": 0.9314465908147803,
+  "fusion_seed_mean_sample_std": 0.0017651824155959118
+}

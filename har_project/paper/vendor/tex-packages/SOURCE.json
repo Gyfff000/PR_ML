@@ -1,0 +1,55 @@
+[
+  {
+    "package": "multirow",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet/archive/multirow.tar.xz",
+    "sha256": "84b85d559d1a08c48d3250643f80f1685138334d8c267a9e952f3cab1c840ec2",
+    "bytes": 2848
+  },
+  {
+    "package": "placeins",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet/archive/placeins.tar.xz",
+    "sha256": "ebb7331c8c769993ff30281b3f4d97267ec7cb2efca0388816ac7f3d929aeaec",
+    "bytes": 2288
+  },
+  {
+    "package": "abstract",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet/archive/abstract.tar.xz",
+    "sha256": "ba74e6bca53ea9391f6df3c07cfb533113fec599a8a02c9a0f1d7fedaa2da287",
+    "bytes": 2020
+  },
+  {
+    "package": "appendix",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet/archive/appendix.tar.xz",
+    "sha256": "c34ebb397279bf645aaf3b6705b0da1da260bf5c832fdad5c53d735f1a7e83e2"
+  },
+  {
+    "package": "footmisc",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet/archive/footmisc.tar.xz",
+    "sha256": "d53877d3f17d2848be99ad9eb0a8986d31ad759db8a6834f6a8c6afa4eccc139"
+  },
+  {
+    "package": "multirow complete source",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/macros/latex/contrib/multirow.zip",
+    "sha256": "82ee3ce8e9f4e67bbaa6dd51bbe563cc85df184fd6e577705cd4b5a3a4f0fe56"
+  },
+  {
+    "package": "placeins complete source",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/macros/latex/contrib/placeins.zip",
+    "sha256": "a0aac82121b9c8c83fd523c1e478243528210fc92d49466cad73725fc28d0802"
+  },
+  {
+    "package": "abstract complete source",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/macros/latex/contrib/abstract.zip",
+    "sha256": "cc0718ce5530d3f0312c88dbe18598af0067a7cc270df7f91774cbf05c4ff440"
+  },
+  {
+    "package": "appendix complete source",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/macros/latex/contrib/appendix.zip",
+    "sha256": "7383c9f35753d7e1f777a4f7626c89f6c7a6bf2095a4047de36f6af60ce7b63b"
+  },
+  {
+    "package": "footmisc complete source",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/macros/latex/contrib/footmisc.zip",
+    "sha256": "bee80e2fd0c46fc102d6d8570ff6e5fb59a70a157acf395caa8d292922f58f40"
+  }
+]

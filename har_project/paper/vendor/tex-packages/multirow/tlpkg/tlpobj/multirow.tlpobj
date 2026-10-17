@@ -1,0 +1,20 @@
+name multirow
+category Package
+revision 77682
+shortdesc Create tabular cells spanning multiple rows
+relocated 1
+longdesc The package has a lot of flexibility, including an option for
+longdesc specifying an entry at the "natural" width of its text. The
+longdesc package is distributed with the bigdelim and bigstrut packages,
+longdesc which can be used to advantage with \multirow cells.
+runfiles size=4
+ RELOC/tex/latex/multirow/bigdelim.sty
+ RELOC/tex/latex/multirow/bigstrut.sty
+ RELOC/tex/latex/multirow/multirow.sty
+catalogue-also bigstrut bigdelim
+catalogue-contact-bugs https://github.com/pietvo/multirow/issues
+catalogue-contact-repository https://github.com/pietvo/multirow
+catalogue-ctan /macros/latex/contrib/multirow
+catalogue-license lppl1.3
+catalogue-topics table tagged-pdf-incompatible
+catalogue-version 2.9

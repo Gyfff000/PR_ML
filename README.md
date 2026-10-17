@@ -11,3 +11,6 @@
 实验代码、数据、报告提纲和 AI 披露记录在 [supervised_learning_baseline（监督学习基线练习）](supervised_learning_baseline/README.md)。
 
 当前已完成数据检查、固定划分、基线比较与预设网格调参。按训练集五折交叉验证选择最终 SVM（C=10、gamma=scale），CV 宏平均 F1 为 0.943764，选择已冻结。独立测试集尚未评价。下一步按项目说明运行 evaluate，再根据真实结果完成论文。
+
+
+HAR 中文论文初稿及开源 LaTeX 工程见 [har_project/paper](har_project/paper/README.md)，包含可编译 PDF、规范图表、参考文献和 VS 操作说明。
