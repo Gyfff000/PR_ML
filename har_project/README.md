@@ -91,6 +91,6 @@ AI 参与及关键提示见 [AI使用记录.md](AI使用记录.md)。训练由�
 
 ## 中文学术论文
 
-完整 LaTeX 初稿位于 [paper](paper/README.md)，入口为 `paper/main.tex`，编译结果为 `paper/main.pdf`。采用开源 ElegantPaper v0.12，保留固定版本、完整上游模板及许可证；参考文献按 GB/T 7714 数字顺序编码排版。包含中英文摘要与关键词、数据描述、模型公式、实验协议、CV/PCA/稳定性/独立测试分析、局限与结论、参考文献及 AI 参与附录。
+完整 LaTeX 初稿位于 [paper](paper/README.md)，入口为 `paper/main.tex`，编译结果为 `paper/main.pdf`。采用开源 ElegantPaper v0.12，保留固定版本、完整上游模板及许可证；参考文献按 GB/T 7714 数字顺序编码排版。包含中英文摘要与关键词、数据描述、模型公式、实验协议、CV/PCA/稳定性/独立测试分析、局限与结论、参考文献。AI 参与清单和关键提示单独保存在 [AI使用记录.md](AI使用记录.md)，提交时与论文分别提供。
 
 可在 Visual Studio 编辑 `.tex`，在该目录的 PowerShell 终端执行 `.\build.ps1`；详细说明见论文 README。正常编译不运行训练代码，也不需要 Python。先在 `author_info.tex` 填写本人真实姓名、班级和学号，再核对正文及其对应实验。论文中的表格与配对统计均由保存结果生成，但正文结论仍需本人理解和审核。

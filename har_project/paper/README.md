@@ -4,7 +4,7 @@
 
 ## 开源模板与规范
 
-采用 [ElegantPaper](https://github.com/ElegantLaTeX/ElegantPaper)，固定提交 `40275032d6e3073e658038de30a98e1b4785f052`，类文件版本 v0.12。原始模板完整保存在 `vendor/ElegantPaper`，根目录类文件是原样副本。LPPL-1.3c 或更高版本的许可证、作者署名与来源信息均保留，详见 `TEMPLATE_SOURCE.md`。论文使用 A4 单栏、中英文摘要与关键词、编号公式、图题在下表题在上、三线表、文中交叉引用、GB/T 7714 数字顺序编码参考文献、AI 参与附录。不伪造期刊卷期、DOI 或作者身份。
+采用 [ElegantPaper](https://github.com/ElegantLaTeX/ElegantPaper)，固定提交 `40275032d6e3073e658038de30a98e1b4785f052`，类文件版本 v0.12。原始模板完整保存在 `vendor/ElegantPaper`，根目录类文件是原样副本。LPPL-1.3c 或更高版本的许可证、作者署名与来源信息均保留，详见 `TEMPLATE_SOURCE.md`。论文使用 A4 单栏、中英文摘要与关键词、编号公式、图题在下表题在上、三线表、文中交叉引用、GB/T 7714 数字顺序编码参考文献。不伪造期刊卷期、DOI 或作者身份。
 
 ## 在 Visual Studio 中修改和编译
 
@@ -37,7 +37,7 @@ Set-Location -LiteralPath 'D:\1111\PR_ML\har_project\paper'
 - `04_protocol`：五折分组、内层选轮数、最终冻结、评价指标与环境。
 - `05_results`：真实 CV/PCA/复验/独立测试、类别与受试者误差、局限。
 - `06_conclusion`：结论与研究边界。
-- `appendix_ai`：AI 辅助及复现说明；另见上级目录 `AI使用记录.md`。
+- AI 使用说明单独保存于上级目录 [AI使用记录.md](../AI使用记录.md)，与论文分开提供，未编入正文或附录。
 
 ## 数据来源与更新
 
