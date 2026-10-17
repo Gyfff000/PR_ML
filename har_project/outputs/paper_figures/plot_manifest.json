@@ -1,0 +1,20 @@
+{
+  "matplotlib_version": "3.11.2",
+  "numpy_version": "2.5.3",
+  "source_sha256": {
+    "fusion_model.py": "9a6960054fdb8e909287f95b853fbed582684634178d785413701f9967725689",
+    "models/final/experiment_config.json": "6d3bac511ef735aa88e1da5d505d9cba6117f924ea65240e18e2163c07f4c52b",
+    "outputs/cnn_group_cv.csv": "8c190cdb7a3624888ee32b5b64a9c14ffc96a77acdd831449b3f1c59524b2f5a",
+    "outputs/final_test/final_test_metrics.json": "55f3eb9d6d6c6914adf9d22c876fed8df79932032170b549d559c0b6624b8e57",
+    "outputs/final_test/fusion_classification_report.json": "f95a21e17d27d48ea2af4e41ee9d20ff9be41c0237666ffb1a35d62ef61449e7",
+    "outputs/final_test/fusion_confusion_matrix.csv": "f47ba43df2e9dbf7fd644c9b5931700148d87ce1fb7541a5605c3a70786eb123",
+    "outputs/final_test/logistic_classification_report.json": "01c8e5ce46b814294d0a856a35265fd4a7bc5b23233aaf23dafbe4cd85f1a594",
+    "outputs/final_test/logistic_confusion_matrix.csv": "2e3f4576e355e3cd6d36efc69b1b25a59efe1a4e0a71dc48562fe3165f19266f",
+    "outputs/forest_grid_cv.csv": "a032acbd653ba860c4bc499d5b7ec19779cc4255399b5663029cbc57e9b191dc",
+    "outputs/fusion_group_cv.csv": "aabf61e5818b010176c834838df28e51f0fa60b4c37e667eb31d524bc0bba763",
+    "outputs/logistic_grid_cv.csv": "513726a6cd257dfcf0a8bcc50ec24bb812d58aeb98312cfab6334279c5029b08",
+    "outputs/mlp_group_cv.csv": "a4dfd78b8051c9cc372920924df17370e332219a2b6c96db5939721f9926c097",
+    "outputs/svm_grid_cv.csv": "5d6e042573451684a5346222a64f90cf7e8a61f7c203710d9d0daa3fc333a927"
+  },
+  "training_or_test_inference_performed": false
+}

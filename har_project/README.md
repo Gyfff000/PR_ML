@@ -72,3 +72,18 @@ PCA 保留率 90%、95%、99% 的对照结果见 `outputs/pca_compare_cv.csv`，
 - `models/final`：逻辑回归流水线、融合网络权重、融合预处理参数、固定配置和最终训练日志。
 
 AI 参与及关键提示见 [AI使用记录.md](AI使用记录.md)。训练由学生在 Visual Studio 中执行，代码示例、实验设计和结果解读由 AI 辅助。论文正文尚未定稿。
+
+
+## 论文图表
+
+`21_make_paper_figures.py` 从已保存的实验记录生成四张图：融合网络结构、六模型五折分组交叉验证、两个冻结模型的测试混淆矩阵、测试各类别 F1。输出位于 `outputs/paper_figures`，包括 300 dpi PNG、四页矢量 PDF、图注、绘图数值表及来源哈希清单。
+
+在 HAR 项目的 VS PowerShell 终端中安装绘图依赖：
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements-figures.txt
+```
+
+随后选择 `21_make_paper_figures.py`，按 Ctrl+F5。脚本不加载模型、不训练或重新测试，依赖现有 `outputs` 和冻结网络源文件。训练环境锁定文件保持原样，绘图依赖单列。
+
+初版图表已由 AI 使用本机现有 Matplotlib 3.11.2 环境生成并检查，实际绘图环境版本和来源文件 SHA-256 见 `plot_manifest.json`；学生可在 HAR 的 VS 环境安装上述依赖后自行复现。交叉验证图采用原始基础种子42，误差线为五折标准差（ddof=0），不是置信区间；独立测试与交叉验证分图呈现。
